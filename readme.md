@@ -37,31 +37,31 @@
 * Boolean Operations
 ```
 	isOutputEmpty() - Check if output is empty.
-    isUnformattedOutputEmpty() - Check if unformatted output is empty.
+	isUnformattedOutputEmpty() - Check if unformatted output is empty.
 	isComplexOutputEmpty() - Check if complex output is empty.
-    executionHasError() - Checks if the request was executed successfully.
-    outputHasError() - Checks if the output is correct response or error response.
+	executionHasError() - Checks if the request was executed successfully.
+	outputHasError() - Checks if the output is correct response or error response.
 ```
 
 * Set Operations
 ```
 	setRequest(String request) - Set input to endpoint.
-    setUrl(String url) - Set endpoint URl.
+	setUrl(String url) - Set endpoint URl.
 ```
 
 * Get Operations
 ```
 	getOutputAsJSONObject() - Get output as JSONObject.
-    getOutputAsString() - Get output as String.
+	getOutputAsString() - Get output as String.
+	
+   	getComplexOutputAsJSONObject() - Get complex output as JSONObject.
+   	getComplexOutputAsString() - Get complex output as String.
     
-    getComplexOutputAsJSONObject() - Get complex output as JSONObject.
-    getComplexOutputAsString() - Get complex output as String.
-    
-    getStatusCodeAsInteger() - Get Status Code As Integer.
+   	getStatusCodeAsInteger() - Get Status Code As Integer.
 	getStatusCodeAsString() - Get status code as String.
    
-	getRuntimeAsLong() - Get Runtime as a Long value.
-    getRuntimeAsString() - Get Runtime as a String value.
+   	getRuntimeAsLong() - Get Runtime as a Long value.
+   	getRuntimeAsString() - Get Runtime as a String value.
     
-    getUnformattedOutput() - Get the raw output.
+   	getUnformattedOutput() - Get the raw output.
 ```

@@ -2,7 +2,7 @@
   	<modelVersion>4.0.0</modelVersion>
   	<groupId>pajkouisn.utilities.http</groupId>
   	<artifactId>http</artifactId>
-  	<version>0.0.1-SNAPSHOT</version>
+  	<version>v1.0.0</version>
   	<name>Http Library</name>
   	<description>This library provides simple http functionlities like sending and recieving requests.</description>
   	

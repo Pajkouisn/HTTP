@@ -10,7 +10,7 @@ import org.apache.commons.httpclient.methods.RequestEntity;
 import org.apache.commons.httpclient.methods.StringRequestEntity;
 import org.json.simple.JSONObject;
 
-import pajkouisn.utilities.constants.Constant;
+import pajkouisn.utilities.constants.Constants;
 
 import static pajkouisn.utilities.json.JSONOperations.toJSONObject;
 
@@ -109,17 +109,17 @@ public class ExecuteHttpPost
 				catch(Exception exception)	{}
 			} 
 			
-			complexOutput.put(Constant.ResponseKeys.STATUS, statusCode);
-			complexOutput.put(Constant.ResponseKeys.OUTPUT, output);
-			complexOutput.put(Constant.ResponseKeys.RUN_TIME, runTime);
-			complexOutput.put(Constant.ResponseKeys.UNFORMATTED_OUTPUT, unformattedOutput);
+			complexOutput.put(Constants.ResponseKeys.STATUS, statusCode);
+			complexOutput.put(Constants.ResponseKeys.OUTPUT, output);
+			complexOutput.put(Constants.ResponseKeys.RUN_TIME, runTime);
+			complexOutput.put(Constants.ResponseKeys.UNFORMATTED_OUTPUT, unformattedOutput);
 		}
 		
 		//	If the call cannot be made, add the exception reason to output JSON.
 		catch(Exception exception)
 		{	
-			complexOutput.put(Constant.ResponseKeys.ERROR_MESSAGE, exception.getMessage());
-			complexOutput.put(Constant.ResponseKeys.ERROR_REASON, exception.toString());
+			complexOutput.put(Constants.ResponseKeys.ERROR_MESSAGE, exception.getMessage());
+			complexOutput.put(Constants.ResponseKeys.ERROR_REASON, exception.toString());
 		}   	
 	}
 	

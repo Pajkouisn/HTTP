@@ -1,4 +1,4 @@
-# HTTP Library [![Build Status](https://travis-ci.org/Pajkouisn/HTTP.png)]
+# HTTP Library [![Build Status](https://travis-ci.org/Pajkouisn/HTTP.png)](https://travis-ci.org/Pajkouisn/HTTP)
 
 ## This library provides an easy interface to execute HTTP requests. 
 
